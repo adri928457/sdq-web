@@ -1,0 +1,110 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+   
+   }
+
+   
+   img {
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+   }
+   
+   .body {
+       width: 100%;
+   }
+   
+   .container {
+       width: 100%;
+   }
+   .card {
+       width: 40%;
+       min-height: 500px;
+       text-align: center;
+       margin: auto;
+       margin-top: 10%;
+       padding: 10px;
+       border-radius: 30px;
+       background-color: rgb(229, 212, 245);
+       font-family: 'Roboto', sans-serif;
+       backdrop-filter: blur(90px);
+   }
+   
+   .button-1 {
+       width: 200px;
+       min-height: 30px;
+       text-align: center;
+       margin: left;
+       padding: 10px;
+       background-color: blueviolet;
+       color:rgb(255, 255, 255);
+       font-family: 'Roboto', sans-serif;
+       cursor:pointer;
+       border-radius: 10px;
+   
+   }
+   
+   .button-2 {
+       width: 200px;
+       min-height: 30px;
+       text-align: center;
+       margin: left;
+       padding: 10px;
+       background-color: rgb(223, 56, 223);
+       color:rgb(255, 255, 255);
+       font-family: 'Roboto', sans-serif;
+       cursor: pointer;
+       border-radius: 10px;
+   }
+
+   .btn-contact {
+    width: 200px;
+    min-height: 30px;
+    text-align: center;
+    margin: left;
+    padding: 10px;
+    background-color: rgb(223, 56, 223);
+    color:rgb(92, 71, 71);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+   }
+   
+   
+           .yes {
+               background-color: rgb(129, 103, 72);
+               margin:auto;
+               min-height: 800px;
+               float:left;
+               width: 25%;
+               align-items: center;
+               text-align: center;
+           }
+   
+           .whatever {
+               margin:auto;
+               min-height: 800px;
+               float:right;
+               width: 75%;
+               background-image: url('rat.jpg');
+               background-size: cover;
+               background-repeat: no-repeat;
+           }
+
+
+
+           /* esto no me funciona :( 
+           input, textarea {
+            font-family: 'Roboto', sans-serif;
+            border: none;
+            padding: 1px;
+            margin: auto;
+            min-width: 20px;
+            height: 30px;
+            background-color: blue;
+            border-radius: 10px;
+           }
